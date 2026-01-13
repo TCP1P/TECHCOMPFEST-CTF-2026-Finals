@@ -1,0 +1,25 @@
+# yaml-language-server: $schema=https://raw.githubusercontent.com/dimasma0305/gzcli/refs/heads/master/internal/template/templates/others/ctf-template/.gzctf/challenge.schema.yaml
+
+name: "The NOexistenceN of you AND me"
+author: "dimas"
+description: |
+  There's no limit of our imagination, therefore you're not/exist.
+
+  There's no limit of our programming, therefore php not/exist.
+
+  There's no limit of our exploitation, therefore RCE not/exist.
+
+type: "StaticAttachment"
+value: 1000
+
+container:
+  flagTemplate: "TCF{hello_from_shared_object_[TEAM_HASH]}"
+  containerImage: "{{.slug}}:latest"
+  memoryLimit: 512
+  cpuCount: 3
+  storageLimit: 512
+  containerExposePort: 80
+  enableTrafficCapture: false
+
+scripts:
+  start: cd src && docker build -t {{.slug}} .
