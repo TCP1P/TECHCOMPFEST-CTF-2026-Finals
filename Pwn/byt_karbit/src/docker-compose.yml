@@ -1,0 +1,14 @@
+services:
+  byt_karbit:
+    build: .
+    restart: on-failure
+    ports:
+      - 6767:6767
+    deploy:
+      resources:
+        limits:
+          cpus: "1.5"
+          memory: "512M"
+        reservations:
+          cpus: "0.5"
+          memory: "256M"
