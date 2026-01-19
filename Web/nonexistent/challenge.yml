@@ -5,7 +5,7 @@ author: "dimas"
 description: |
   Are you really sure that's ACE doesn't exist?
 
-type: "StaticAttachment"
+type: "DynamicContainer"
 value: 1000
 
 container:
@@ -14,8 +14,9 @@ container:
   memoryLimit: 512
   cpuCount: 3
   storageLimit: 512
-  containerExposePort: 80
+  exposePort: 80
   enableTrafficCapture: false
 
 scripts:
   start: cd src && docker build -t {{.slug}} .
+  
