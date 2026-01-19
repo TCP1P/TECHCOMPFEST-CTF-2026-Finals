@@ -3,9 +3,9 @@
 name: "halah byt karbit, udah jelas dia my bini"
 author: "m3rr"
 description: |
-    <div style="position:relative; text-align:center; max-width:720px; margin:0 auto;"><a href="http://gzcli.{{.host}}/{{.slug}}" style="display:block; text-decoration:none;"><img src="https://cache.lahelu.com/image-PWsL7hrqP-82298" alt="mas rusdi si karbit slayer" style="display:block; width:100%; height:auto; border-radius:18px; opacity:1; transition:transform .18s ease, filter .18s ease, box-shadow .18s ease; cursor:pointer;" onmouseover="this.style.transform='scale(1.02)'; this.style.filter='brightness(1.06)'; this.style.boxShadow='0 16px 55px rgba(0,0,0,.55)'" onmouseout="this.style.transform='scale(1)'; this.style.filter='none'; this.style.boxShadow='none'" /><div style="position:absolute; inset:0; border-radius:18px; z-index:2; border:1px solid rgba(255,255,255,.18); box-shadow:0 12px 40px rgba(0,0,0,.45); pointer-events:none;"></div></a></div>
+    <div style="position:relative; text-align:center; max-width:720px; margin:0 auto;"><a href="http://gzcli.{{.host}}/{{.slug}}" target="_blank" rel="noopener noreferrer" style="display:block; text-decoration:none;"><img src="https://cache.lahelu.com/image-PWsL7hrqP-82298" alt="mas rusdi si karbit slayer" style="display:block; width:100%; height:auto; border-radius:18px; opacity:1; transition:transform .18s ease, filter .18s ease, box-shadow .18s ease; cursor:pointer;" onmouseover="this.style.transform='scale(1.02)'; this.style.filter='brightness(1.06)'; this.style.boxShadow='0 16px 55px rgba(0,0,0,.55)'" onmouseout="this.style.transform='scale(1)'; this.style.filter='none'; this.style.boxShadow='none'" /><div style="position:absolute; inset:0; border-radius:18px; z-index:2; border:1px solid rgba(255,255,255,.18); box-shadow:0 12px 40px rgba(0,0,0,.45); pointer-events:none;"></div></a></div>
 
-    <small>itu diklik dulu gambar karbitnya bang</small>
+    <small>itu diklik dulu gambar karbitnya</small>
 
 type: "StaticAttachment"
 value: 1000
