@@ -1,7 +1,2 @@
 libnum
-<<<<<<< HEAD
 pycryptodome
-=======
-pycryptodome
-ecdsa
->>>>>>> a1970a7 (first commit)
