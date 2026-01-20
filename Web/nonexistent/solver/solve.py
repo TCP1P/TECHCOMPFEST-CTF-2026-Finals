@@ -4,7 +4,7 @@ import subprocess
 import base64
 import os
 
-URL = "http://techcomfest.1pc.tf:33015"
+URL = "http://1pc.tf:12345/"
 
 class BaseAPI:
     def __init__(self, url=URL) -> None:
@@ -192,6 +192,7 @@ try {
     // Test exec function with different commands
     $commands = [
         'cat /flag.txt',
+        'env'
     ];
     
     foreach ($commands as $cmd) {
