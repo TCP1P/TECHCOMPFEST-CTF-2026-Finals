@@ -4,6 +4,9 @@ name: "The NOexistenceN of you AND me"
 author: "dimas"
 description: |
   Are you really sure that's ACE doesn't exist?
+  > Note: please ignore the website input, it doesn't make sense because the author has severe schizophrenia when experimenting making this website.
+
+  <iframe width="100%" height="500" src="https://www.youtube.com/embed/y2T44rjzAjg?si=sV3WamLaQ1Xs7-NV&autoplay=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 type: "DynamicContainer"
 value: 1000

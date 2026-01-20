@@ -13,11 +13,9 @@ RUN mkdir /home/ctf/chall/src
 
 COPY ./chall.py /home/ctf/chall/src
 COPY ./run.sh /home/ctf/chall/src
-COPY ./flag.txt /home/ctf/chall/src
 
 RUN chown -R root:root /home/ctf/chall
 RUN chmod -R 555 /home/ctf/chall
-USER ctf
 WORKDIR /home/ctf/chall/src
 
 CMD ["./run.sh"]

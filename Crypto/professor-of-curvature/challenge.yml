@@ -5,16 +5,19 @@ author: "azuketto"
 description: |
   harikitteeeeee ikouuuuuU!!!!
 
-  {{ .host }} 8302
-
-type: "StaticAttachment"
+type: "DynamicContainer"
 value: 1000
 
-flags:
-  - "TCF{4a9f5889b887887de40ddb31fa537caa}"
+container:
+  flagTemplate: "TCF{https://youtu.be/0JcPvIuSRf0?si=LMIui_BGtle02vOz?[TEAM_HASH]}"
+  containerImage: "{{.slug}}:latest"
+  memoryLimit: 512
+  cpuCount: 3
+  storageLimit: 512
+  exposePort: 8010
+  enableTrafficCapture: false
 
 provide: "./dist"
 
 scripts:
-  start: cd ./src && docker compose up --build --detach
-  stop: cd ./src && docker compose down --volumes
+  start: cd src && docker build -t {{.slug}} .

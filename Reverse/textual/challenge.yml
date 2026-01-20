@@ -1,0 +1,14 @@
+# yaml-language-server: $schema=https://raw.githubusercontent.com/dimasma0305/gzcli/refs/heads/master/internal/template/templates/others/ctf-template/.gzctf/challenge.schema.yaml
+
+name: "Textual"
+author: "marc"
+description: |
+  I just made a simple chat app using Textual! I hope you like it!
+
+type: "StaticAttachment"
+value: 1000
+
+flags:
+  - "TCF{what-do-you-call-an-il-number?-SICKK-SEVENNNNNNNN}"
+
+provide: "./dist"
