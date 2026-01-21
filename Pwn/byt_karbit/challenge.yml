@@ -10,6 +10,11 @@ description: |
 type: "StaticAttachment"
 value: 1000
 
+hints:
+  - |
+    > karbit A bilang ke karbit B kalo bisa "bebas" nimpah text dipikir mas, tapi nimpah text kemana kalo cuman 8 byt null byte doang ? kata karbit C "coookkkk dulu tuh banyak banget bug null-deref di Linux tapi sampek sekarang bingung jir cara exploitnya", balas karbit B "lu tuh gak diajak bang (¬`‸´¬)" (ketauan ini circlenya chitoge 🤣)
+
+
 flags:
   - "TCF{from oob to 1 byt asm to null deref to being a true lord karbiter}"
 
