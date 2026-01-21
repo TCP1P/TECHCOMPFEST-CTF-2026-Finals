@@ -13,7 +13,8 @@ value: 1000
 hints:
   - |
     > karbit A bilang ke karbit B kalo bisa "bebas" nimpah text dipikir mas, tapi nimpah text kemana kalo cuman 8 byt null byte doang ? kata karbit C "coookkkk dulu tuh banyak banget bug null-deref di Linux tapi sampek sekarang bingung jir cara exploitnya", balas karbit B "lu tuh gak diajak bang (¬`‸´¬)" (ketauan ini circlenya chitoge 🤣)
-
+  - |
+    > dari perspektif karbit C "ini 1 byt shellcode bisa nimpah post fb mana ya ?" padahal dari dulu cfhp itu broken bet jir sebelum ada mmap_min_addr dan smep (bro masih ngehalu karna onodera kalah). pas karbit C pergi karna diusir barulah kumpulan karbit ini kepikiran ide buat cara bypassnya lewat CVE-2017-5123
 
 flags:
   - "TCF{from oob to 1 byt asm to null deref to being a true lord karbiter}"
