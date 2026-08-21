@@ -1,4 +1,6 @@
-rm run.sh
-echo $GZCTF_FLAG > /flag.txt
+#!/bin/sh
+set -eu
+: "${GZCTF_FLAG:?GZCTF_FLAG is required}"
+printf '%s\n' "$GZCTF_FLAG" > /flag.txt
 unset GZCTF_FLAG
-apache2-foreground
+exec apache2-foreground
