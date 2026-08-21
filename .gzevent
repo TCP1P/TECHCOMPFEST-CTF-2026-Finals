@@ -1,0 +1,15 @@
+title: TECHCOMPFEST CTF 2026 — Finals
+start: '2026-01-20T00:00:00Z'
+end: '2026-01-22T00:00:00Z'
+hidden: true
+summary: Historical TECHCOMPFEST CTF 2026 — Finals challenge archive, converted for RSCTF practice.
+content: 'This event was imported from [TCP1P/TECHCOMPFEST-CTF-2026-Finals](https://github.com/TCP1P/TECHCOMPFEST-CTF-2026-Finals).
+
+
+  It starts hidden for organizer review. Historical service endpoints may be offline; each challenge links to its source archive.'
+acceptWithoutReview: true
+teamMemberCountLimit: 4
+containerCountLimit: 3
+practiceMode: true
+writeupRequired: false
+writeupNote: Writeups are optional for this historical practice event.

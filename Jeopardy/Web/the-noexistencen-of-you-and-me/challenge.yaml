@@ -1,0 +1,24 @@
+name: The NOexistenceN of you AND me
+author: dimas
+description: 'Are you really sure that''s ACE doesn''t exist?
+
+  > Note: please ignore the website input, it doesn''t make sense because the author has severe schizophrenia when experimenting making this website.
+
+
+  <iframe width="100%" height="500" src="https://www.youtube.com/embed/y2T44rjzAjg?si=sV3WamLaQ1Xs7-NV&autoplay=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+
+  ---
+
+  Historical archive converted for RSCTF practice. Original service endpoints may no longer be online. [Review the source challenge](https://github.com/TCP1P/TECHCOMPFEST-CTF-2026-Finals/tree/main/Web/nonexistent).'
+type: DynamicContainer
+category: Web
+minScoreRate: 0.25
+difficulty: 5
+disableBloodBonus: false
+flagTemplate: TCF{hello_from_shared_object_[TEAM_HASH]}
+container:
+  memoryLimit: 512
+  cpuCount: 3
+  exposePort: 80
+  enableTrafficCapture: false

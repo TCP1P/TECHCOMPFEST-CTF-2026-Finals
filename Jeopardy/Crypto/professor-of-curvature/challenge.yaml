@@ -1,0 +1,21 @@
+name: professor-of-curvature
+author: azuketto
+description: 'harikitteeeeee ikouuuuuU!!!!
+
+
+  ---
+
+  Historical archive converted for RSCTF practice. Original service endpoints may no longer be online. [Review the source challenge](https://github.com/TCP1P/TECHCOMPFEST-CTF-2026-Finals/tree/main/Crypto/professor-of-curvature).'
+type: DynamicContainer
+category: Crypto
+minScoreRate: 0.25
+difficulty: 5
+disableBloodBonus: false
+flags:
+- TCF{https://youtu.be/0JcPvIuSRf0?si=LMIui_BGtle02vOz}
+flagTemplate: TCF{https://youtu.be/0JcPvIuSRf0?si=LMIui_BGtle02vOz?[TEAM_HASH]}
+container:
+  memoryLimit: 512
+  cpuCount: 3
+  exposePort: 8010
+  enableTrafficCapture: false

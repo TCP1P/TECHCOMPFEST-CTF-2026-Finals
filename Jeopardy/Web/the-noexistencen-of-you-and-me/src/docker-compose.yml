@@ -1,0 +1,10 @@
+services:
+  php-apache:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - 12345:80
+
+    environment:
+      - RSCTF_FLAG=foobar

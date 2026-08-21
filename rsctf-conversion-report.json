@@ -1,0 +1,52 @@
+{
+  "sourceRepository": "TCP1P/TECHCOMPFEST-CTF-2026-Finals",
+  "targetRepository": "TCP1P/TECHCOMPFEST-CTF-2026-Finals",
+  "private": false,
+  "events": [
+    "TECHCOMPFEST CTF 2026 — Finals"
+  ],
+  "challenges": [
+    {
+      "name": "professor-of-curvature",
+      "category": "Crypto",
+      "source": "Crypto/professor-of-curvature/challenge.yml",
+      "sourceUrl": "https://github.com/TCP1P/TECHCOMPFEST-CTF-2026-Finals/tree/main/Crypto/professor-of-curvature",
+      "type": "DynamicContainer",
+      "warnings": [
+        "flag recovered from the archived challenge tree"
+      ],
+      "manifest": "Jeopardy/Crypto/professor-of-curvature/challenge.yaml"
+    },
+    {
+      "name": "halah byt karbit, udah jelas dia my bini",
+      "category": "Pwn",
+      "source": "Pwn/byt_karbit/challenge.yml",
+      "sourceUrl": "https://github.com/TCP1P/TECHCOMPFEST-CTF-2026-Finals/tree/main/Pwn/byt_karbit",
+      "type": "StaticAttachment",
+      "warnings": [
+        "attachment archive exceeds RSCTF's per-file limit"
+      ],
+      "manifest": "Jeopardy/Pwn/halah-byt-karbit-udah-jelas-dia-my-bini/challenge.yaml"
+    },
+    {
+      "name": "Textual",
+      "category": "Reverse",
+      "source": "Reverse/textual/challenge.yml",
+      "sourceUrl": "https://github.com/TCP1P/TECHCOMPFEST-CTF-2026-Finals/tree/main/Reverse/textual",
+      "type": "StaticAttachment",
+      "warnings": [],
+      "manifest": "Jeopardy/Reverse/textual/challenge.yaml"
+    },
+    {
+      "name": "The NOexistenceN of you AND me",
+      "category": "Web",
+      "source": "Web/nonexistent/challenge.yml",
+      "sourceUrl": "https://github.com/TCP1P/TECHCOMPFEST-CTF-2026-Finals/tree/main/Web/nonexistent",
+      "type": "DynamicContainer",
+      "warnings": [
+        "no literal flag could be recovered; organizer review required"
+      ],
+      "manifest": "Jeopardy/Web/the-noexistencen-of-you-and-me/challenge.yaml"
+    }
+  ]
+}

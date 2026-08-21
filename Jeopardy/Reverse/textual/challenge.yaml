@@ -1,0 +1,16 @@
+name: Textual
+author: marc
+description: 'I just made a simple chat app using Textual! I hope you like it!
+
+
+  ---
+
+  Historical archive converted for RSCTF practice. Original service endpoints may no longer be online. [Review the source challenge](https://github.com/TCP1P/TECHCOMPFEST-CTF-2026-Finals/tree/main/Reverse/textual).'
+type: StaticAttachment
+category: Reverse
+minScoreRate: 0.25
+difficulty: 5
+disableBloodBonus: false
+flags:
+- TCF{what-do-you-call-an-il-number?-SICKK-SEVENNNNNNNN}
+provide: dist
