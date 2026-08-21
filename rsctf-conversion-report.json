@@ -13,7 +13,7 @@
       "sourceUrl": "https://github.com/TCP1P/TECHCOMPFEST-CTF-2026-Finals/tree/main/Crypto/professor-of-curvature",
       "type": "DynamicContainer",
       "warnings": [
-        "flag recovered from the archived challenge tree"
+        "no literal flag could be recovered; organizer review required"
       ],
       "manifest": "Jeopardy/Crypto/professor-of-curvature/challenge.yaml"
     },

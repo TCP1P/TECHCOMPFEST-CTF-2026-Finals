@@ -1,4 +1,6 @@
-rm run.sh
-echo $RSCTF_FLAG > /flag.txt
+#!/bin/sh
+set -eu
+: "${RSCTF_FLAG:?RSCTF_FLAG is required}"
+printf '%s\n' "$RSCTF_FLAG" > /flag.txt
 unset RSCTF_FLAG
-apache2-foreground
+exec apache2-foreground

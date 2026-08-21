@@ -11,8 +11,6 @@ category: Crypto
 minScoreRate: 0.25
 difficulty: 5
 disableBloodBonus: false
-flags:
-- TCF{https://youtu.be/0JcPvIuSRf0?si=LMIui_BGtle02vOz}
 flagTemplate: TCF{https://youtu.be/0JcPvIuSRf0?si=LMIui_BGtle02vOz?[TEAM_HASH]}
 container:
   memoryLimit: 512
