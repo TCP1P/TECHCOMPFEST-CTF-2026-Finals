@@ -12,9 +12,8 @@
       "source": "Crypto/professor-of-curvature/challenge.yml",
       "sourceUrl": "https://github.com/TCP1P/TECHCOMPFEST-CTF-2026-Finals/tree/main/Crypto/professor-of-curvature",
       "type": "DynamicContainer",
-      "warnings": [
-        "no literal flag could be recovered; organizer review required"
-      ],
+      "runtimeReason": null,
+      "warnings": [],
       "manifest": "Jeopardy/Crypto/professor-of-curvature/challenge.yaml"
     },
     {
@@ -22,11 +21,15 @@
       "category": "Pwn",
       "source": "Pwn/byt_karbit/challenge.yml",
       "sourceUrl": "https://github.com/TCP1P/TECHCOMPFEST-CTF-2026-Finals/tree/main/Pwn/byt_karbit",
-      "type": "StaticAttachment",
+      "type": "DynamicContainer",
+      "runtimeReason": null,
       "warnings": [
-        "attachment archive exceeds RSCTF's per-file limit"
+        "portable single-service Docker runtime promoted from 'StaticAttachment' to DynamicContainer",
+        "generated per-team flag template 'TCF{halah_byt_karbit_udah_jelas_dia_my_bini__________[TEAM_HASH]}'",
+        "dynamic flag delivery proven through archived full flag literal",
+        "dynamic runtime compatibility rewrote 1 archived flag occurrence(s)"
       ],
-      "manifest": "Jeopardy/Pwn/halah-byt-karbit-udah-jelas-dia-my-bini/challenge.yaml"
+      "manifest": "Jeopardy/Pwn/halah-byt-karbit-udah-jelas-dia-my-bini-rsctf-dynamic/challenge.yaml"
     },
     {
       "name": "Textual",
@@ -34,6 +37,7 @@
       "source": "Reverse/textual/challenge.yml",
       "sourceUrl": "https://github.com/TCP1P/TECHCOMPFEST-CTF-2026-Finals/tree/main/Reverse/textual",
       "type": "StaticAttachment",
+      "runtimeReason": "Docker context exceeds the portable size/file limits or contains a symlink",
       "warnings": [],
       "manifest": "Jeopardy/Reverse/textual/challenge.yaml"
     },
@@ -43,9 +47,8 @@
       "source": "Web/nonexistent/challenge.yml",
       "sourceUrl": "https://github.com/TCP1P/TECHCOMPFEST-CTF-2026-Finals/tree/main/Web/nonexistent",
       "type": "DynamicContainer",
-      "warnings": [
-        "no literal flag could be recovered; organizer review required"
-      ],
+      "runtimeReason": null,
+      "warnings": [],
       "manifest": "Jeopardy/Web/the-noexistencen-of-you-and-me/challenge.yaml"
     }
   ]

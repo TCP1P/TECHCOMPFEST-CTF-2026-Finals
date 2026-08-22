@@ -1,5 +1,0 @@
-halah byt karbit, udah jelas dia my bini
-
-Original source: https://github.com/TCP1P/TECHCOMPFEST-CTF-2026-Finals/tree/main/Pwn/byt_karbit
-
-Local archive note: attachment archive exceeds RSCTF's per-file limit.

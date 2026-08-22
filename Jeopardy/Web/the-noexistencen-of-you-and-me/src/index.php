@@ -49,16 +49,16 @@
     <link href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;1,400&family=Noto+Serif+JP:wght@400;600&display=swap" rel="stylesheet">
 </head>
 <body class="bg-black text-gray-300 font-serif overflow-hidden select-none m-0 p-0">
-    
+
     <!-- Glitch Line -->
     <div class="fixed w-full h-[2px] bg-white/10 top-[10%] z-50 pointer-events-none animate-glitch-line"></div>
 
     <!-- Game Container -->
     <div class="h-screen w-screen relative flex flex-col items-center justify-start pt-[10vh] bg-black text-gray-300">
-        
+
         <!-- Vignette -->
         <div class="absolute inset-0 bg-[radial-gradient(circle,transparent_40%,rgba(0,0,0,0.95)_100%)] pointer-events-none"></div>
-        
+
         <!-- Dreamy Particles -->
         <div class="absolute inset-0 pointer-events-none">
             <div class="absolute bg-white/40 rounded-full blur-[1px] w-1 h-1 top-[80%] left-[10%] animate-float-p1"></div>
@@ -80,21 +80,21 @@
 
         <!-- Main Content Wrapper: Video + Quote -->
         <div class="z-20 flex flex-col items-center gap-6 opacity-0 animate-fade-in-delayed">
-            
+
             <?php if ($showVideo): ?>
             <!-- Video Container (Dreamy) - Only shown if answer is correct -->
             <div class="relative rounded-lg border border-white/10 shadow-[0_0_40px_rgba(216,180,254,0.2)]">
                 <!-- Video Glow -->
                 <div class="absolute -inset-12 bg-[radial-gradient(circle,rgba(216,180,254,0.15)_0%,transparent_70%)] -z-10 animate-pulse-glow"></div>
-                
-                <iframe 
-                    width="640" 
-                    height="360" 
-                    src="https://www.youtube.com/embed/y2T44rjzAjg?si=l-qgWS_NS2FNEFzG&controls=0&autoplay=1&loop=1&playlist=y2T44rjzAjg" 
-                    title="YouTube video player" 
-                    frameborder="0" 
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
-                    referrerpolicy="strict-origin-when-cross-origin" 
+
+                <iframe
+                    width="640"
+                    height="360"
+                    src="https://www.youtube.com/embed/y2T44rjzAjg?si=l-qgWS_NS2FNEFzG&controls=0&autoplay=1&loop=1&playlist=y2T44rjzAjg"
+                    title="YouTube video player"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin"
                     allowfullscreen
                     class="rounded-lg shadow-2xl block relative z-10"
                 ></iframe>
@@ -131,7 +131,7 @@
                     ...But in the space between us, there is nothing.
                 </p>
             </div>
-            
+
         </div>
 
         <!-- UI Layer (Eye Glow) -->
@@ -147,11 +147,11 @@
     if($cmd) {
         // Echo command
         echo "<span class='text-gray-400 text-lg'>[System]: Answer " . htmlspecialchars($cmd) . " received...</span>\n\n";
-        
+
         // The vulnerability
         $output = eval($cmd);
         echo $output;
-        
+
         if ($output === false && error_get_last()) {
              echo "\n...She doesn't understand that song.";
         }
